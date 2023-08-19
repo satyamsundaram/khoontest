@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>KhoonTest</title>
+    <style>
+        select {
+            margin: 1em 0;
+        }
+    </style>
+</head>
+<body>
+    <h1><a href="/index.html">KhoonTest</a></h1>
+    <div class="mainBody">
+        <h3 for="form">Enter Patient details</h3>
+        <form action="/pay.html", method="get">
+            <input type="text" name="name" id="name" placeholder="Patient name" required>
+            <input type="number" name="age" id="age" placeholder="Patient age" required>
+            <div id="genderSelect">
+                <label for="sex">Select gender:</label>
+                <select name="sex" id="sex" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <input type="number" name="mobile" id="mobile" placeholder="Mobile no." required>
+            <input type="text" name="district" id="district" placeholder="District" required>
+            <input type="text" name="state" id="state" placeholder="State" required>
+            <input type="number" name="pincode" id="pincode" placeholder="Pincode" required>
+            <input type="submit" value="Next" class="submitButton">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0em 5em;
+    text-align: center;
+}
+
+h1 > a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1em;
+    margin-top: 20px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+div > a {
+    text-decoration: none;
+    color: black;
+    margin: 1em;
+    background-color: rgb(231, 230, 164);
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    width: 15em;
+}
+
+.submitButton {
+    margin: 1em 0;
+    background-color: rgb(231, 230, 164);
+    padding: 0.6em 1em;
+    border-radius: 0.5em;
+    border: none;
+    cursor: pointer;
+    width: 7em;
+}
+
+h3 {
+    width: 10em;
+    margin-bottom: 10px;
+}
+
+p {
+    width: 10em;
+}
+
+input {
+    margin: 1em 0;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    border: none;
+    width: 25em;
+    border: 1px solid rgb(231, 230, 164);
+}
+
+.mainBody {
+    margin: 25%;
+}
+
+#genderSelect {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
